@@ -1,2 +1,2 @@
 # Womentechnologyprogram
-Getting started with programmings
+Getting started with programming
