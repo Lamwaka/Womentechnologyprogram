@@ -1,0 +1,91 @@
+.form {
+    position: relative;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+select {
+    width: 100%;
+    background: #f2f2f2;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+select option {
+    outline: none;
+    background: #f2f2f2;
+    border: #4d4d4d solid;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: none;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: none;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+input:active {
+    outline-color: #4CAF50;
+    outline-width: 30px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #43A047;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 17px;
+}
+
+.check {
+    outline: none;
+}
+
+.check:active {
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    color: #b3b3b3;
+}
